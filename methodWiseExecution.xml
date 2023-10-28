@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/moazzam/Desktop/hrmsProject/gittest/batch17/testNGBasicsBatch17/src/test/java/class01/dataProviderTest.java">
+       <classes>
+           <class name="class01.testNGannotations">
+               <methods>
+                   <include name="aTestCase"></include>
+               </methods>
+           </class>
+           <class name="class01.Assertions">
+               <methods>
+                   <include name="login"></include>
+               </methods>
+           </class>
+       </classes>
+    </test>
+</suite>
