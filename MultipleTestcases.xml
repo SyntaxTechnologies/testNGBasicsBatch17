@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="softAssertionTestcase">
+     <classes>
+         <class name="class01.softAssertion"></class>
+     </classes>
+    </test>
+
+    <test name="hardAssertion">
+        <classes>
+            <class name="class01.Assertions"></class>
+        </classes>
+    </test>
+</suite>
